@@ -1,6 +1,7 @@
 import BotonHome from "@/components/BotonHome";
 import CardItems from "@/components/CardItems";
 
+
 export default function ActividadesPage() {
   const cardItemContent = [
     {

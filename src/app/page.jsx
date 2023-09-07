@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "animate.css";
 
 export default function Home() {
   return (
@@ -6,16 +7,19 @@ export default function Home() {
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
           <div className="mt-24 sm:mt-32 lg:mt-16">
-            <Link href="/new" className="inline-flex space-x-6">
+            <Link
+              href="/new"
+              className="inline-flex space-x-6 animate__animated animate__flash"
+            >
               <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
                 Lo Nuevo
               </span>
             </Link>
           </div>
-          <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl animate__animated animate__zoomInDown">
             Portafolio de Actividades y Tareas
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-gray-300 animate__animated animate__zoomInDown ">
             Este es un portafolio de actividades y tareas de la materia de
             Análisis y Diseño de Sistemas, en el cual se irán subiendo las
             actividades y tareas que se vayan realizando en la materia.
@@ -23,13 +27,13 @@ export default function Home() {
           <div className="mt-10 flex items-center gap-x-6">
             <Link
               href="/actividades"
-              className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+              className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 animate__animated animate__heartBeat animate__delay-2s animate__repeat-2"
             >
               Ver Actividades
             </Link>
             <Link
               href="#"
-              className="text-sm font-semibold leading-6 text-white italic"
+              className="text-sm font-semibold leading-6 text-white italic animate__animated animate__fadeOutRight animate__delay-3s"
             >
               Mas información
               <span aria-hidden="true">→</span>
@@ -43,7 +47,7 @@ export default function Home() {
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="w-[20rem] lg:w-[76rem] rounded-xl bg-white/5 shadow-2xl ring-1 ring-white/10 "
+              className="w-[20rem] lg:w-[76rem] rounded-xl bg-white/5 shadow-2xl ring-1 ring-white/10 animate__animated animate__fadeInBottomRight animate__delay-1s"
             />
           </div>
         </div>
