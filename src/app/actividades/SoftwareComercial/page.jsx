@@ -1,4 +1,7 @@
 import Link from "next/link";
+import observacionImage from "../../../../public/images/imagen1.png";
+import entrevistaImage from "../../../../public/images/imagen2.png";
+import miTienda from "../../../../public/images/miTienda.png";
 import {
   CloudArrowUpIcon,
   LockClosedIcon,
@@ -6,6 +9,7 @@ import {
 } from "@heroicons/react/20/solid";
 import CardHerramientas from "@/components/CardHerramientas";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import Image from "next/image";
 const features = [
   {
     name: "Falta de una tienda Virtual.",
@@ -26,13 +30,37 @@ const features = [
     icon: ServerIcon,
   },
 ];
+
+const posts = [
+  {
+    id: 1,
+    title: "Observación Directa",
+    href: "#",
+    description:
+      "Observar y evaluar el desempeño realizado por el trabajador dentro de la empresa. Asi como el flujo de ventas, analizando los datos de los clientes y los productos mas vendidos.",
+    imageUrl: observacionImage,
+    category: { title: "Efectivo", href: "#" },
+    efective: true,
+  },
+  {
+    id: 2,
+    title: "Entrevistas",
+    href: "#",
+    description:
+      "Las entrevistas permiten obtener información detallada y específica. Puedes profundizar en aspectos clave del software, identificar problemas específicos y obtener una comprensión más completa de las necesidades de los usuarios.",
+    imageUrl: entrevistaImage,
+    category: { title: "Efectivo", href: "#" },
+    efective: true,
+  },
+];
+
 export default function SoftwareComercialPage() {
   return (
     <div>
       <div className="text-white">
         <div className="overflow-hidden py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 place-items-center">
               <div className="lg:pr-8 lg:pt-4">
                 <div className="lg:max-w-lg">
                   <h2 className="text-base text-center font-semibold leading-7 text-indigo-600">
@@ -61,10 +89,10 @@ export default function SoftwareComercialPage() {
                   </dl>
                 </div>
               </div>
-              <img
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              <Image
+                src={miTienda}
                 alt="Product screenshot"
-                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                className="w-[10rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0"
                 width={2432}
                 height={1442}
               />
@@ -81,13 +109,13 @@ export default function SoftwareComercialPage() {
           <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
             Herramientas de Recoleccion de Datos
           </h3>
-          <CardHerramientas />
+          <CardHerramientas posts={posts} />
         </div>
         <div className="flex justify-center my-10">
           <Link
             href="https://www.figma.com/file/sLAASbxSYNEiDM2MHK7YoG/Mi-Tienda?type=design&node-id=0%3A1&mode=design&t=IuJPU7jKuPU2D4vK-1"
             target="_blank"
-            className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Ver Mockup en Figma
             <CheckCircleIcon className="-mr-0.5 h-5 w-5" aria-hidden="true" />

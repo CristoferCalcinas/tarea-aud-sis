@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col max-h-screen">
+    <main className="flex flex-col min-h-screen">
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
           <div className="mt-24 sm:mt-32 lg:mt-16">
@@ -40,11 +39,11 @@ export default function Home() {
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
             <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+              src="https://econsultoria.net/wp-content/uploads/2021/08/que-es_portafolio.png"
               alt="App screenshot"
               width={2432}
               height={1442}
-              className="w-[76rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
+              className="w-[20rem] lg:w-[76rem] rounded-xl bg-white/5 shadow-2xl ring-1 ring-white/10 "
             />
           </div>
         </div>
