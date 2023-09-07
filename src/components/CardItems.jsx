@@ -4,10 +4,11 @@ import {
   UserCircleIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import "animate.css";
 
 export default function CardItems({ link, content }) {
   return (
-    <div>
+    <div className="animate__animated animate__slideInUp">
       <div className="lg:col-start-3 lg:row-end-1 my-10">
         <h2 className="sr-only">Targeta Problematica</h2>
         <div className="rounded-lg bg-gray-200 shadow-sm ring-1 ring-gray-900/5">
