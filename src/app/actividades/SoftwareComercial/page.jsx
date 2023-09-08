@@ -165,10 +165,14 @@ export default function SoftwareComercialPage() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+          <h3 className="mb-10 text-3xl font-bold tracking-tight text-gray-300 sm:text-5xl">
             Lienzo Canvas
           </h3>
-          <img src="/LienzoCanvas.svg" alt="lienzocanvas" />
+          <img
+            src="/LienzoCanvas.svg"
+            alt="lienzocanvas"
+            className="animate__animated animate__pulse animate__slow animate__infinite animate__delay-4s"
+          />
         </div>
         <div className="flex flex-col items-center justify-center my-10">
           <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl text-center">

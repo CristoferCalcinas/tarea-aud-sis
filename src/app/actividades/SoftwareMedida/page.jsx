@@ -53,6 +53,38 @@ const posts = [
     imageUrl: observacionImage,
     category: { title: "Efectivo", href: "#" },
     efective: true,
+    content: {
+      header:
+        "La observación directa podría ser un método valioso para recopilar datos sobre cómo se llevan a cabo los procesos en el hogar de ancianos. Esto permitiría a los investigadores o al personal de la institución observar de primera mano cómo se realiza el proceso de ingreso, cómo se administra la atención médica, cómo se manejan los pagos y otros aspectos operativos. La observación podría ayudar a identificar posibles áreas de mejora y comprender cómo se aplican realmente las políticas y procedimientos.",
+      firstParagraph: [
+        {
+          "Proceso de Ingreso":
+            "Cómo se recibe a los posibles residentes y cómo se verifica la disponibilidad de camas. - Tiempo promedio de espera, fluidez del proceso.",
+        },
+        {
+          "Atención Médica":
+            "Cómo se realiza el chequeo médico diario y cómo se planifican los medicamentos. - Cumplimiento de horarios, atención personalizada.",
+        },
+
+        {
+          "Proceso de Pago":
+            "Cómo se realiza el proceso de pago mensual y cómo se manejan los pagos atrasados. - Tasa de cumplimiento de pagos, tiempo de procesamiento. ",
+        },
+
+        {
+          "Retiros y Egresos":
+            "Cómo se registra y maneja el retiro de residentes por diversas razones. - Motivos comunes de retiro, eficiencia del proceso.",
+        },
+        {
+          "Satisfacción del Residente":
+            "Percepción de los residentes sobre la calidad de la atención y los servicios. - Evaluación subjetiva de la experiencia. ",
+        },
+        {
+          "Experiencia del Personal":
+            "Percepción del personal sobre la eficacia de los procesos y la administración. - Opiniones y sugerencias del personal.",
+        },
+      ],
+    },
   },
   {
     id: 2,
@@ -63,6 +95,20 @@ const posts = [
     imageUrl: entrevistaImage,
     category: { title: "Efectivo", href: "#" },
     efective: true,
+    content: {
+      header:
+        "Las entrevistas con el personal administrativo, médico, enfermeros, nutricionistas y otros miembros del equipo podrían proporcionar información valiosa sobre sus experiencias, desafíos y percepciones sobre el funcionamiento del hogar de ancianos. También se podrían entrevistar a los residentes y a sus familiares para obtener comentarios sobre su experiencia en la institución.",
+      firstParagraph: [
+        {
+          "Objetivos: ":
+            "- Automatizar la recepción y registro de nuevos residentes y sus responsables. - Controlar y gestionar pagos y cobros relacionados con los servicios brindados. - Supervisar la atención médica y nutricional de los residentes. - Generar informes bimestrales para la gerencia general.",
+        },
+        {
+          "Requerimientos: ":
+            "- Sistema de gestión de clientes (CRM) para registrar datos de residentes y responsables. - Sistema de gestión de pagos para registrar pagos y generar comprobantes. - Sistema de gestión de medicamentos para registrar y controlar el suministro de medicamentos. - Sistema de generación de informes para generar informes bimestrales.",
+        },
+      ],
+    },
   },
   {
     id: 3,
@@ -73,6 +119,39 @@ const posts = [
     imageUrl: cuentionarioImage,
     category: { title: "Efectivo", href: "#" },
     efective: true,
+    content: {
+      header:
+        "Los cuestionarios podrían ser una forma eficaz de recopilar datos sobre la experiencia de los residentes y el personal en el hogar de ancianos. Los cuestionarios podrían enviarse por correo electrónico o entregarse en persona a los residentes y al personal. Los cuestionarios podrían incluir preguntas sobre los siguientes temas:",
+      firstParagraph: [
+        {
+          "1. Proceso de Ingreso: ":
+            "¿Puede describir el proceso de ingreso de nuevos residentes? ¿Cómo se verifica la disponibilidad de camas? ¿Cuáles son los requisitos para que un residente sea aceptado? ",
+        },
+        {
+          "2. Atención Médica: ":
+            "¿Cómo se lleva a cabo el chequeo médico diario de los residentes? ¿Cómo se planifican y administran los medicamentos? ¿Qué procedimientos se siguen en caso de emergencias médicas? ",
+        },
+
+        {
+          "3. Proceso de Pago: ":
+            "¿Cómo se maneja el proceso de pagos mensuales? ¿Qué sucede si un residente no realiza el pago a tiempo? ¿Cómo se registran los pagos y se emiten los comprobantes?",
+        },
+
+        {
+          "4. Retiros y Egresos: ":
+            "¿Cuál es el procedimiento cuando un residente decide retirarse? ¿Cómo se maneja la documentación y el registro de retiros? ¿Existen patrones comunes en los motivos de retiro?",
+        },
+
+        {
+          "5. Satisfacción del Residente: ":
+            "¿Cómo obtienen comentarios y retroalimentación de los residentes? ¿Qué aspectos valoran más los residentes en su experiencia aquí? ¿Cómo se abordan las preocupaciones o quejas de los residentes?",
+        },
+        {
+          "6. Experiencia del Personal: ":
+            "¿Cuál es su opinión sobre la eficacia de los procesos actuales? ¿Qué desafíos enfrenta el personal en su trabajo diario? ¿Tienen sugerencias para mejorar la operación y la atención a los residentes?",
+        },
+      ],
+    },
   },
 ];
 
