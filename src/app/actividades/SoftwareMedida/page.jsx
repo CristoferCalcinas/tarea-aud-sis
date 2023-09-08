@@ -134,7 +134,7 @@ export default function SoftwarenMedida() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center my-10">
-            <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+            <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl text-center">
               Herramientas de Recoleccion de Datos
             </h3>
             <CardHerramientas posts={posts} />

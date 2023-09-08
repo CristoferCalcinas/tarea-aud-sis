@@ -58,7 +58,7 @@ const posts = [
 export default function SoftwareComercialPage() {
   return (
     <div>
-      <div className="text-white pb-24">
+      <div className="text-white pb-24 mt-5 md:mt-0">
         <div className="overflow-hidden sm:py-12">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 place-items-center">
@@ -107,7 +107,7 @@ export default function SoftwareComercialPage() {
           <img src="/LienzoCanvas.svg" alt="lienzocanvas" />
         </div>
         <div className="flex flex-col items-center justify-center my-10">
-          <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+          <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl text-center">
             Herramientas de Recoleccion de Datos
           </h3>
           <CardHerramientas posts={posts} />
