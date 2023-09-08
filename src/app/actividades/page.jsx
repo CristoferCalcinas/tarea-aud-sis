@@ -24,7 +24,7 @@ export default function ActividadesPage() {
     },
   ];
   return (
-    <div>
+    <div className="py-10">
       <div className="flex flex-col items-center justify-center">
         <h2 className="text-5xl mt-10 font-bold tracking-tight text-gray-300 sm:text-6xl animate__animated animate__bounceInUp">
           Proyectos
