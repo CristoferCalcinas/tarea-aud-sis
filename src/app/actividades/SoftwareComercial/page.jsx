@@ -42,6 +42,32 @@ const posts = [
     imageUrl: observacionImage,
     category: { title: "Efectivo", href: "#" },
     efective: true,
+    content: {
+      header:
+        "Enfocados en validar la idea de negocio, y analizar muchos puntos de venta.",
+      firstParagraph: [
+        {
+          "Diseño del registro: ":
+            "Decide qué información deseas recopilar y cómo organizarla. Esto puede incluir categorías, comportamientos específicos, frecuencia de concurrencia y cualquier otra información relevante, como ingresos semanales.",
+        },
+        {
+          "Obtención de datos precisos: ":
+            "La observación directa permite recopilar datos de manera objetiva y precisa, ya que estás capturando directamente las acciones y transacciones que ocurren en el negocio, eliminando la posibilidad de errores de registro.",
+        },
+        {
+          "Entendimiento del comportamiento del cliente:":
+            "Al observar cómo los clientes navegan por la tienda digital, qué productos exploran, añaden al carrito y comprar, puedes obtener información valiosa sobre sus preferencias y patrones de compra.",
+        },
+        {
+          " Optimización de la experiencia de usuario: ":
+            "La observación te permite identificar obstáculos o dificultades que los clientes pueden enfrentar al navegar por la tienda en línea. Esto te permite mejorar la usabilidad y la experiencia general del usuario.",
+        },
+        {
+          "Identificación de productos populares: ":
+            "Mediante la observación de las compras y navegación de los clientes, puedes identificar rápidamente los productos más populares y aquellos que podrían necesitar más promoción.",
+        },
+      ],
+    },
   },
   {
     id: 2,
@@ -52,6 +78,44 @@ const posts = [
     imageUrl: entrevistaImage,
     category: { title: "Efectivo", href: "#" },
     efective: true,
+    content: {
+      header:
+        "Escoger el método de la entrevista para recopilar información sobre un software comercial puede ser una excelente elección por varias razones, especialmente cuando se trata de comprender las necesidades y expectativas de los usuarios y otros stakeholders. Aquí hay algunas razones para considerar este enfoque:",
+      firstParagraph: [
+        {
+          "1. Obtención de Información Detallada: ":
+            "Las entrevistas permiten obtener información detallada y específica. Puedes profundizar en aspectos clave del software, identificar problemas específicos y obtener una comprensión más completa de las necesidades de los usuarios.",
+        },
+        {
+          "2. Aclaración de Dudas: ":
+            "Durante una entrevista, puedes hacer preguntas de seguimiento para aclarar cualquier ambigüedad o confusión. Esto te ayuda a obtener una comprensión más clara de los requisitos y expectativas.",
+        },
+        {
+          "3. Contexto Personalizado: ":
+            "Las entrevistas permiten capturar el contexto personalizado de cada usuario. Esto es importante en un software comercial, donde diferentes usuarios pueden tener diferentes flujos de trabajo y requisitos.",
+        },
+        {
+          "4. Construcción de Relaciones: ":
+            "Las entrevistas también son oportunidades para construir relaciones sólidas con los stakeholders. Puedes demostrar que valoras sus opiniones y estás comprometido en satisfacer sus necesidades.",
+        },
+        {
+          "5. Identificación de Problemas no Evidentes:":
+            "En ocasiones, los usuarios pueden no ser conscientes de ciertos problemas o necesidades hasta que se les pregunta directamente. Las entrevistas pueden ayudar a identificar problemas no evidentes en una etapa temprana.",
+        },
+        {
+          "6. Exploración de Ideas de Valor Agregado:":
+            "Además de comprender las necesidades básicas, las entrevistas pueden servir para explorar ideas de valor agregado. Los usuarios pueden sugerir características o funcionalidades que no habías considerado inicialmente.",
+        },
+        {
+          "7. Validación de Ideas: ":
+            "Si ya tienes algunas ideas para el software, las entrevistas te permiten validarlas directamente con los usuarios. Puedes obtener retroalimentación instantánea sobre si tus ideas son adecuadas o necesitan ajustes.",
+        },
+        {
+          "8. Detección de Preferencias y Prioridades: ":
+            "Las entrevistas son útiles para descubrir las preferencias y prioridades de los usuarios. Esto puede ser crucial para determinar qué características deben desarrollarse primero.",
+        },
+      ],
+    },
   },
 ];
 
