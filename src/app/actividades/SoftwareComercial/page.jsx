@@ -160,6 +160,7 @@ export default function SoftwareComercialPage() {
                 className="w-[10rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0 animate__animated animate__fadeInRight"
                 width={2432}
                 height={1442}
+                priority
               />
             </div>
           </div>
