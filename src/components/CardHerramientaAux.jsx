@@ -2,7 +2,9 @@
 import Image from "next/image";
 import { useScroll, motion, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
-import { PlusIcon, XMarkIcon } from "@heroicons/react/20/solid";
+import { XMarkIcon } from "@heroicons/react/20/solid";
+import "animate.css";
+
 export default function CardHerramientaAux({ post }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -13,7 +15,9 @@ export default function CardHerramientaAux({ post }) {
   return (
     <>
       <motion.article
-        onClick={() => setSelectedPostId(post.id)}
+        onClick={() =>
+          setSelectedPostId(selectedPostId === post.id ? null : post.id)
+        }
         ref={ref}
         style={{
           scale: scrollYProgress,
@@ -67,7 +71,9 @@ export default function CardHerramientaAux({ post }) {
                 <XMarkIcon className="h-7 w-7" aria-hidden="true" />
               </button>
             </motion.div>
-            <motion.article className="bg-[#111827] w-full  rounded-xl text-justify md:text-start md:px-5">
+            <motion.article
+              className={`bg-[#111827] w-full  rounded-xl text-justify md:text-start md:px-5 animate__animated animate__fadeInUp`}
+            >
               <motion.h2 className="font-bold text-xl text-center pt-10 px-3 md:px-0">
                 {post?.content?.header}
               </motion.h2>

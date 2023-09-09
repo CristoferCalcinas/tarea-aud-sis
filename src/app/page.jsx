@@ -31,13 +31,10 @@ export default function Home() {
             >
               Ver Actividades
             </Link>
-            <Link
-              href="#"
-              className="text-sm font-semibold leading-6 text-white italic animate__animated animate__fadeOutRight animate__delay-3s"
-            >
+            <span className="text-sm font-semibold leading-6 text-white italic animate__animated animate__fadeOutRight animate__delay-3s">
               Mas información
               <span aria-hidden="true">→</span>
-            </Link>
+            </span>
           </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
