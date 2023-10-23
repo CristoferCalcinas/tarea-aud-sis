@@ -18,9 +18,18 @@ export default function ActividadesPage() {
       title: "Análisis y Diseño de Sistemas",
       subtitle: "Sistema de Medida",
       userAdmin: "Adrian Calcinas",
-      disponible: "Disponible",
+      disponible: "Actualizando",
       fecha: "2023-8-29",
       tituloPromblema: "Asilo de Ancianos",
+    },
+    {
+      id: 3,
+      title: "Análisis y Diseño de Sistemas",
+      subtitle: "App Vida Saludable",
+      userAdmin: "Adrian Calcinas",
+      disponible: "Nuevo",
+      fecha: "2023-9-19",
+      tituloPromblema: "App Vida Saludable",
     },
   ];
   return (
@@ -32,6 +41,7 @@ export default function ActividadesPage() {
         <div className="">
           <CardItems link={"SoftwareComercial"} content={cardItemContent[0]} />
           <CardItems link={"SoftwareMedida"} content={cardItemContent[1]} />
+          <CardItems link={"AppVidaSaludable"} content={cardItemContent[2]} />
         </div>
       </div>
       <div>{/* mas contenido pronto */}</div>

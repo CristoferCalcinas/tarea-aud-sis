@@ -7,42 +7,40 @@ import {
   ComputerDesktopIcon,
 } from "@heroicons/react/20/solid";
 import asilo from "../../../../public/images/asilo.png";
-import diagramaCasosDeUso from "../../../../public/images/DCU_Asilo.jpg";
+import diagramaCasosDeUso from "../../../../public/images/DCU_AppSaludable.png";
 const features = [
   {
-    name: "Admisión y Registro Manual.",
+    name: "Falta de Conciencia sobre Estilos de Vida Saludables.",
     description:
-      "El proceso de admisión y registro de nuevos residentes se realiza de manera manual y, a menudo, requiere una significativa carga de trabajo administrativo, lo que puede generar retrasos en la atención.",
+      "Muchas personas carecen de información y conciencia sobre prácticas y hábitos de vida saludables, lo que conduce a problemas de salud, como la obesidad, enfermedades cardíacas y diabetes. La falta de acceso a recursos educativos adecuados puede ser un desafío.",
     icon: CurrencyDollarIcon,
   },
   {
-    name: "Gestión de Datos Descentralizada.",
+    name: "Dificultad en la Gestión de Enfermedades Crónicas.",
     description:
-      "La información personal y médica de los residentes se mantiene en sistemas descentralizados o en papel, lo que dificulta la accesibilidad, la integridad y la seguridad de los datos.",
+      "Las personas con enfermedades crónicas a menudo enfrentan dificultades para gestionar su salud diaria y realizar un seguimiento de su progreso. Esto puede llevar a complicaciones y una calidad de vida reducida.",
     icon: ComputerDesktopIcon,
   },
   {
-    name: "Seguimiento de Pagos Ineficiente.",
+    name: "Escasa Motivación para el Ejercicio Físico.",
     description:
-      "La gestión de pagos mensuales es propensa a retrasos y errores, lo que puede impactar negativamente en los ingresos del hogar de ancianos.",
+      "La falta de motivación para el ejercicio regular es un problema común. Las personas pueden tener dificultades para mantener la rutina de ejercicio, lo que afecta su salud general y su bienestar.",
     icon: DevicePhoneMobileIcon,
   },
   {
-    name: "Atención Médica No Estandarizada.",
+    name: "Dieta Inadecuada y Nutrición Desbalanceada.",
     description:
-      "La atención médica y el seguimiento de medicamentos no siguen un proceso estandarizado, lo que puede dar lugar a inconsistencias en la atención de los residentes.",
+      "La mala alimentación y una nutrición desequilibrada son problemas significativos que contribuyen a la obesidad y otros problemas de salud. Muchas personas no tienen acceso a orientación nutricional adecuada.",
     icon: EyeDropperIcon,
   },
   {
-    name: "Informes Manuales y Tiempo-Consumidores.",
+    name: "Dificultades en el Monitoreo de Salud Personal.",
     description:
-      "La generación de informes bimestrales requiere una considerable inversión de tiempo y esfuerzo del personal, lo que afecta la capacidad de la administración para tomar decisiones informadas.",
+      "La falta de herramientas eficaces para el monitoreo de la salud personal puede dificultar que las personas hagan un seguimiento de su progreso, tomen decisiones informadas y se mantengan al tanto de su bienestar general.",
     icon: LockClosedIcon,
   },
 ];
-
-
-export default function SoftwarenMedida() {
+export default function page() {
   return (
     <div>
       <div>
@@ -56,27 +54,35 @@ export default function SoftwarenMedida() {
                       Software a Medida
                     </h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
-                      Asilo de Ancianos
+                      App Vida Saludable
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-200 font-bold">
                       <span className="text-red-400 text-xl">Antecentes: </span>
-                      El Hogar de Ancianos de Valle Hermoso, una institución de
-                      larga trayectoria dedicada al alojamiento y cuidado de
-                      personas mayores, ha servido a la comunidad con notoria
-                      dedicación. Proporcionando atención integral a los
-                      ancianos, ya sean residentes particulares o beneficiarios
-                      de la obra social, principalmente a través de PAMI. A lo
-                      largo de su historia, el hogar ha enfrentado desafíos
-                      operativos significativos, que incluyen la necesidad de
-                      una admisión eficiente, la gestión precisa de la
-                      información residente y la atención médica adecuada. El
-                      crecimiento de la población de ancianos y la evolución de
-                      los sistemas de salud y seguros sociales han motivado la
-                      búsqueda de una solución eficaz y moderna. La
-                      implementación de un sistema de información integral se
-                      presenta como una respuesta esencial para optimizar la
-                      administración del hogar y brindar una atención de calidad
-                      a los residentes.
+                      La Evaluación del Estilo de Vida surge como respuesta a la
+                      creciente preocupación por la salud y el bienestar de las
+                      personas. Conscientes de la importancia de promover un
+                      estilo de vida saludable entre su personal, la institución
+                      ha decidido llevar a cabo este proyecto en colaboración
+                      con profesionales de diversas áreas, como Ingeniería en
+                      Sistemas, Nutrición, Bioquímica, Enfermería y FyK-AFD,
+                      entre otros. El objetivo principal es evaluar el estado de
+                      salud de los participantes, identificar posibles problemas
+                      relacionados con el sobrepeso y la obesidad, y brindar
+                      orientación y atención médica en función de los resultados
+                      obtenidos. Poniendo un énfasis especial en la
+                      confidencialidad y en garantizar que toda la información
+                      médica de los empleados se maneje con la mayor discreción.
+                      Además, se ha incorporado la entrega de refrigerios para
+                      garantizar el bienestar de los participantes durante todo
+                      el proceso. El proyecto en el cual participamos constó de
+                      dos etapas, la primera etapa fue en la Universidad
+                      Adventista de Bolivia. La segunda con la participación de
+                      100 empleados de la Alcaldía. Este proyecto no solo se
+                      limita a la evaluación inicial y la orientación, sino que
+                      también se está pensando en su sostenibilidad a largo
+                      plazo, buscando formas de asegurar que las prácticas
+                      saludables adoptadas por los empleados perduren en el
+                      tiempo.
                     </p>
                   </div>
                 </div>
@@ -89,24 +95,29 @@ export default function SoftwarenMedida() {
                   priority
                 />
               </div>
-              <div className="py-2 space-y-5">
+              <div className="py-10">
                 <span className="text-red-400 font-bold text-xl">
                   Problema:{" "}
                 </span>
-                <div>
+                <div className="space-y-5 my-5">
                   <span className="italic text-xl">
                     - Situacion Problematica:{" "}
                   </span>
-                  <p className="mt-2">
-                    El Hogar de Ancianos de Valle Hermoso, a pesar de su larga
-                    historia de atención dedicada a los ancianos de la
-                    comunidad, se enfrenta a una serie de desafíos operativos y
-                    administrativos que afectan su eficiencia y la calidad de
-                    los servicios prestados. Entre las principales situaciones
-                    problemáticas se encuentran:
+                  <p>
+                    En la actualidad, la falta de conciencia sobre la
+                    importancia de un estilo de vida saludable y la creciente
+                    prevalencia de enfermedades relacionadas con el sobrepeso y
+                    la obesidad representan una preocupación significativa. Los
+                    problemas de salud asociados con el estilo de vida
+                    sedentario y los hábitos alimenticios poco saludables
+                    afectan tanto a nivel individual como a la sociedad en su
+                    conjunto. En muchas ocasiones, las personas no tienen acceso
+                    a una evaluación adecuada de su estado de salud ni a la
+                    orientación necesaria para llevar a cabo cambios positivos
+                    en su estilo de vida.
                   </p>
-                  <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                    {features.map((feature) => (
+                  <dl className="my-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                    {features?.map((feature) => (
                       <div key={feature.name} className="relative pl-9">
                         <dt className="inline font-semibold text-gray-300">
                           <feature.icon
@@ -115,70 +126,85 @@ export default function SoftwarenMedida() {
                           />
                           {feature.name}
                         </dt>
-                        <dd className="inline text-cyan-300 pl-2">{feature.description}</dd>
+                        <dd className="inline text-cyan-300 pl-2">
+                          {feature.description}
+                        </dd>
                       </div>
                     ))}
                   </dl>
                 </div>
                 <div>
                   <span className="italic text-xl">- Problema</span>
-                  <p className="mt-2">
-                    El Hogar de Ancianos de Valle Hermoso enfrenta desafíos en
-                    la admisión, la gestión de datos, el seguimiento de pagos,
-                    la atención médica y la generación de informes, lo que
-                    impacta la eficiencia y calidad de sus servicios. Para
-                    abordar estas dificultades, se requiere un sistema de
-                    información integral que automatice y optimice estos
-                    procesos, mejorando la gestión y atención brindada a los
-                    residentes.
+                  <p className="mt-4">
+                    El problema central es la necesidad de abordar eficazmente
+                    la falta de prácticas de estilo de vida saludable entre la
+                    población, específicamente entre los empleados de la
+                    institución. Esto se traduce en tasas crecientes de
+                    enfermedades relacionadas con el estilo de vida y una carga
+                    económica significativa para la institución. La poca
+                    conciencia y acceso a orientación médica adecuada son
+                    obstáculos clave que dificultan la adopción de un estilo de
+                    vida más saludable. El proyecto "App Vida Saludable" busca
+                    abordar este problema al evaluar el estilo de vida de los
+                    participantes, identificar posibles problemas relacionados
+                    con el sobrepeso y la obesidad, y proporcionar orientación y
+                    atención médica. Además, se busca garantizar que estas
+                    prácticas saludables perduren en el tiempo, promoviendo un
+                    cambio sostenible hacia un estilo de vida más saludable.
                   </p>
                 </div>
               </div>
-              <div className="space-y-5">
+              <div>
                 <span className="text-red-400 text-xl font-bold">
                   Objetivos:{" "}
                 </span>
-                <div className="space-y-5 text-justify">
+                <div className="space-y-5 mt-3">
                   <h3 className="italic text-xl">- Objetivo General: </h3>
                   <p>
-                    Implementar un sistema de información integral en el Hogar
-                    de Ancianos de Valle Hermoso, que mejore la eficiencia de
-                    las operaciones, garantice la calidad de la atención
-                    brindada a los residentes y optimice la gestión de la
-                    institución.
+                    Desarrollar una solución basada en software que promueva
+                    activamente un estilo de vida saludable, mejore la
+                    conciencia de la salud y aborde los desafíos relacionados
+                    con la falta de motivación, la gestión de enfermedades
+                    crónicas, la nutrición desequilibrada y el seguimiento de la
+                    salud personal.
                   </p>
                   <h3 className="italic text-xl">- Objetivos Especificos: </h3>
                   <div>
                     <ul className="space-y-4">
                       <li>
-                        Automatizar el proceso de admisión y registro de
-                        residentes, reduciendo el tiempo y esfuerzo
-                        administrativo involucrado y eliminando retrasos en la
-                        atención.
+                        Desarrollar una plataforma de educación en línea
+                        accesible y efectiva que proporcione información sobre
+                        prácticas de vida saludable, nutrición y ejercicio, con
+                        énfasis en la prevención de enfermedades y la promoción
+                        de la salud.
                       </li>
                       <li>
-                        Centralizar y digitalizar la información personal y
-                        médica de los residentes, garantizando la integridad y
-                        accesibilidad de los datos, y cumplir con los estándares
-                        de seguridad de la información.
+                        Planificar el seguimiento de salud personalizada que
+                        permita a los usuarios registrar y supervisar su
+                        progreso de salud, establecer metas y recibir
+                        retroalimentación específica y recomendaciones.
                       </li>
                       <li>
-                        Establecer un sistema de seguimiento de pagos mensuales
-                        eficiente que minimice los retrasos y errores, mejorando
-                        la gestión financiera del hogar de ancianos.
+                        Diseñar un modulo de motivación y recompensas que
+                        incentive a los usuarios a mantener un estilo de vida
+                        saludable y establecer rutinas de ejercicio regulares.
                       </li>
                       <li>
-                        Estandarizar la atención médica, permitiendo un
-                        seguimiento preciso de los medicamentos y los
-                        tratamientos de cada residente, lo que conduce a una
-                        atención médica más consistente y de alta calidad.
+                        Proporcionar acceso a recursos y herramientas para la
+                        gestión de enfermedades crónicas, incluyendo
+                        recordatorios de medicación, seguimiento de síntomas y
+                        comunicación con profesionales de la salud.
                       </li>
                       <li>
-                        Implementar un módulo de generación de informes
-                        automatizado que simplifique y acelere la creación de
-                        informes bimestrales, proporcionando a la administración
-                        una visión clara y oportuna de los datos relevantes para
-                        la toma de decisiones.
+                        Desarrollar una herramienta de monitoreo de salud
+                        personal altamente intuitiva y de fácil acceso que
+                        permita a los usuarios realizar un seguimiento efectivo
+                        de su estado de salud, incluyendo indicadores clave como
+                        la actividad física, la dieta, el peso y otros factores
+                        de salud relevantes. Esta herramienta proporcionará
+                        información en tiempo real sobre el progreso de los
+                        usuarios y les ayudará a tomar decisiones informadas
+                        para mejorar su bienestar general.
                       </li>
                     </ul>
                   </div>
@@ -188,7 +214,7 @@ export default function SoftwarenMedida() {
                 <span className="text-red-400 text-xl font-bold">
                   Factibilidad:{" "}
                 </span>
-                <div className="pt-2">
+                <div className="space-y-5 mt-4">
                   <div>
                     <h3 className="italic text-xl">- Factibilidad Tecnica</h3>
                     <p className="font-bold my-5">
@@ -216,7 +242,7 @@ export default function SoftwarenMedida() {
                       </li>
                     </ul>
                   </div>
-                  <div className="mt-7">
+                  <div>
                     <h3 className="italic text-xl">- Factibilidad Economica</h3>
                     <p className="font-bold my-5">
                       Se requiere una inversión inicial para el desarrollo e
@@ -244,8 +270,8 @@ export default function SoftwarenMedida() {
                       </li>
                     </ul>
                   </div>
-                  <div className="mt-7">
-                    <h3 className="italic text-xl">- Factibilidad Operativa</h3>
+                  <div>
+                    <h3 className="italic text-xl">Factibilidad Operativa</h3>
                     <p className="font-bold my-5">
                       La factibilidad operativa se refiere a si el personal y
                       los recursos disponibles son adecuados para la operación
@@ -273,7 +299,7 @@ export default function SoftwarenMedida() {
                   </div>
                 </div>
               </div>
-              <div className="my-5">
+              <div>
                 <span className="text-red-400 text-xl font-bold">
                   Requerimientos:{" "}
                 </span>
@@ -425,10 +451,10 @@ export default function SoftwarenMedida() {
                   Diagrama de Casos de uso:{" "}
                 </span>
                 <div className="flex justify-center py-5">
-                  <Image src={diagramaCasosDeUso}></Image>
+                  <Image src={diagramaCasosDeUso} />
                 </div>
               </div>
-
+              
               <div>
                 <span className="text-red-400 text-xl font-bold">
                   Especificacion los los casos de uso:{" "}
@@ -448,12 +474,6 @@ export default function SoftwarenMedida() {
               </div>
             </div>
           </div>
-          {/* <div className="flex flex-col items-center justify-center my-10">
-            <h3 className="my-5 text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl text-center">
-              Herramientas de Recoleccion de Datos
-            </h3>
-            <CardHerramientas posts={posts} />
-          </div> */}
         </div>
       </div>
     </div>
