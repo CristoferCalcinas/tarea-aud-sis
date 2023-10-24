@@ -8,6 +8,31 @@ import {
 } from "@heroicons/react/20/solid";
 import asilo from "../../../../public/images/asilo.png";
 import diagramaCasosDeUso from "../../../../public/images/DCU_Asilo.jpg";
+import especificacion01 from '../../../../public/images/es01.jpg'
+import especificacion02 from '../../../../public/images/es02.jpg'
+import especificacion03 from '../../../../public/images/es03.jpg'
+import especificacion04 from '../../../../public/images/es04.jpg'
+import especificacion05 from '../../../../public/images/es05.jpg'
+import especificacion06 from '../../../../public/images/es06.jpg'
+import especificacion07 from '../../../../public/images/es07.jpg'
+import especificacion08 from '../../../../public/images/es08.jpg'
+import digramaSecCom01 from '../../../../public/images/ds01.jpg'
+import digramaSecCom02 from '../../../../public/images/ds02.jpg'
+import digramaSecCom03 from '../../../../public/images/ds03.jpg'
+import digramaSecCom04 from '../../../../public/images/ds04.jpg'
+import digramaSecCom05 from '../../../../public/images/ds05.jpg'
+import digramaSecCom06 from '../../../../public/images/ds06.jpg'
+import digramaSecCom07 from '../../../../public/images/ds07.jpg'
+import digramaSecCom08 from '../../../../public/images/ds08.jpg'
+import digramaSecCom09 from '../../../../public/images/ds09.jpg'
+import digramaSecCom10 from '../../../../public/images/ds10.jpg'
+import digramaActiv01 from '../../../../public/images/da01.jpg'
+import digramaActiv02 from '../../../../public/images/da02.jpg'
+import digramaActiv03 from '../../../../public/images/da03.jpg'
+import digramaActiv04 from '../../../../public/images/da04.jpg'
+import digramaActiv05 from '../../../../public/images/da05.jpg'
+import digramaActiv06 from '../../../../public/images/da06.jpg'
+import digramaActiv08 from '../../../../public/images/da08.jpg'
 const features = [
   {
     name: "Admisión y Registro Manual.",
@@ -433,18 +458,49 @@ export default function SoftwarenMedida() {
                 <span className="text-red-400 text-xl font-bold">
                   Especificacion los los casos de uso:{" "}
                 </span>
+                <div className="grid grid-cols-3 py-5 gap-3">
+                  <Image src={especificacion01}></Image>
+                  <Image src={especificacion02}></Image>
+                  <Image src={especificacion03}></Image>
+                  <Image src={especificacion04}></Image>
+                  <Image src={especificacion05}></Image>
+                  <Image src={especificacion06}></Image>
+                  <Image src={especificacion07}></Image>
+                  <Image src={especificacion08}></Image>
+                </div>
               </div>
 
               <div>
                 <span className="text-red-400 text-xl font-bold">
                   Diagrama de Actividad:{" "}
                 </span>
+                <div className="grid grid-cols-3 py-5 gap-3">
+                  <Image src={digramaActiv01}></Image>
+                  <Image src={digramaActiv02}></Image>
+                  <Image src={digramaActiv03}></Image>
+                  <Image src={digramaActiv04}></Image>
+                  <Image src={digramaActiv05}></Image>
+                  <Image src={digramaActiv06}></Image>
+                  <Image src={digramaActiv08}></Image>
+                </div>
               </div>
 
               <div>
                 <span className="text-red-400 text-xl font-bold">
                   Diagrama de Comunicacion y/o Secuencia:{" "}
                 </span>
+                <div className="grid grid-cols-3 py-5 gap-3">
+                  <Image src={digramaSecCom01}></Image>
+                  <Image src={digramaSecCom02}></Image>
+                  <Image src={digramaSecCom03}></Image>
+                  <Image src={digramaSecCom04}></Image>
+                  <Image src={digramaSecCom05}></Image>
+                  <Image src={digramaSecCom06}></Image>
+                  <Image src={digramaSecCom07}></Image>
+                  <Image src={digramaSecCom08}></Image>
+                  <Image src={digramaSecCom09}></Image>
+                  <Image src={digramaSecCom10}></Image>
+                </div>
               </div>
             </div>
           </div>
