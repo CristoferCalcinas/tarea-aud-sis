@@ -6,8 +6,28 @@ import {
   EyeDropperIcon,
   ComputerDesktopIcon,
 } from "@heroicons/react/20/solid";
-import asilo from "../../../../public/images/asilo.png";
+import asilo from "../../../../public/images/appvidasaludable.png";
 import diagramaCasosDeUso from "../../../../public/images/DCU_AppSaludable.png";
+import diagramaCS01 from "../../../../public/images/dcs01.jpg";
+import diagramaCS02 from "../../../../public/images/dcs02.jpg";
+import diagramaCS03 from "../../../../public/images/dcs03.jpg";
+import diagramaCS04 from "../../../../public/images/dcs04.jpg";
+import diagramaCS05 from "../../../../public/images/dcs05.jpg";
+import diagramaCS06 from "../../../../public/images/dcs06.jpg";
+import diagramaCS07 from "../../../../public/images/dcs07.jpg";
+import diagramaEsp01 from "../../../../public/images/esp01.jpg";
+import diagramaEsp02 from "../../../../public/images/esp02.jpg";
+import diagramaEsp03 from "../../../../public/images/esp03.jpg";
+import diagramaEsp04 from "../../../../public/images/esp04.jpg";
+import diagramaEsp05 from "../../../../public/images/esp05.jpg";
+import diagramaEsp06 from "../../../../public/images/esp06.jpg";
+import diagramaEsp07 from "../../../../public/images/esp07.jpg";
+import diagramaEsp08 from "../../../../public/images/esp08.jpg";
+import diagramaEsp09 from "../../../../public/images/esp09.jpg";
+import diagramaEsp10 from "../../../../public/images/esp10.jpg";
+import diagramaEsp11 from "../../../../public/images/esp11.jpg";
+import diagramaEsp12 from "../../../../public/images/esp12.jpg";
+
 const features = [
   {
     name: "Falta de Conciencia sobre Estilos de Vida Saludables.",
@@ -89,7 +109,7 @@ export default function page() {
                 <Image
                   src={asilo}
                   alt="Product screenshot"
-                  className="w-[33rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[57rem] md:-ml-4 lg:-ml-0 animate__animated  animate__fadeInRight"
+                  className="w-[33rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:w-[37rem] md:-ml-4 lg:-ml-0 animate__animated  animate__fadeInRight"
                   width={2432}
                   height={1442}
                   priority
@@ -451,26 +471,51 @@ export default function page() {
                   Diagrama de Casos de uso:{" "}
                 </span>
                 <div className="flex justify-center py-5">
-                  <Image src={diagramaCasosDeUso} />
+                  <Image src={diagramaCasosDeUso} alt="Picture of the author" />
                 </div>
               </div>
-              
+
               <div>
                 <span className="text-red-400 text-xl font-bold">
                   Especificacion los los casos de uso:{" "}
                 </span>
+                <div className="grid grid-cols-2 gap-7 py-5">
+                  <Image src={diagramaEsp01} alt="Picture of the author"/>
+                  <Image src={diagramaEsp02} alt="Picture of the author"/>
+                  <Image src={diagramaEsp03} alt="Picture of the author"/>
+                  <Image src={diagramaEsp04} alt="Picture of the author"/>
+                  <Image src={diagramaEsp05} alt="Picture of the author"/>
+                  <Image src={diagramaEsp06} alt="Picture of the author"/>
+                  <Image src={diagramaEsp07} alt="Picture of the author"/>
+                  <Image src={diagramaEsp08} alt="Picture of the author"/>
+                  <Image src={diagramaEsp09} alt="Picture of the author"/>
+                  <Image src={diagramaEsp10} alt="Picture of the author"/>
+                  <Image src={diagramaEsp11} alt="Picture of the author"/>
+                  <Image src={diagramaEsp12} alt="Picture of the author"/>
+                </div>
               </div>
 
               <div>
                 <span className="text-red-400 text-xl font-bold">
                   Diagrama de Actividad:{" "}
                 </span>
+
+                <span>Comodin del Congreso</span>
               </div>
 
               <div>
                 <span className="text-red-400 text-xl font-bold">
                   Diagrama de Comunicacion y/o Secuencia:{" "}
                 </span>
+                <div className="grid grid-cols-3 py-5 gap-8">
+                  <Image src={diagramaCS01} alt="Picture of the author"/>
+                  <Image src={diagramaCS02} alt="Picture of the author"/>
+                  <Image src={diagramaCS03} alt="Picture of the author"/>
+                  <Image src={diagramaCS04} alt="Picture of the author"/>
+                  <Image src={diagramaCS05} alt="Picture of the author"/>
+                  <Image src={diagramaCS06} alt="Picture of the author"/>
+                  <Image src={diagramaCS07} alt="Picture of the author"/>
+                </div>
               </div>
             </div>
           </div>

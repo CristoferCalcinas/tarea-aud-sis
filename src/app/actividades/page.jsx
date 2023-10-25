@@ -1,11 +1,18 @@
-import BotonHome from "@/components/BotonHome";
 import CardItems from "@/components/CardItems";
-
 
 export default function ActividadesPage() {
   const cardItemContent = [
     {
       id: 1,
+      title: "Análisis y Diseño de Sistemas",
+      subtitle: "Tipos de Sistemas",
+      userAdmin: "Adrian Calcinas",
+      disponible: "Disponible",
+      fecha: "2023-8-01",
+      tituloPromblema: "GDSS",
+    },
+    {
+      id: 2,
       title: "Análisis y Diseño de Sistemas",
       subtitle: "Sistema Comercial",
       userAdmin: "Adrian Calcinas",
@@ -14,7 +21,7 @@ export default function ActividadesPage() {
       tituloPromblema: "Mi Tienda",
     },
     {
-      id: 2,
+      id: 3,
       title: "Análisis y Diseño de Sistemas",
       subtitle: "Sistema de Medida",
       userAdmin: "Adrian Calcinas",
@@ -23,7 +30,7 @@ export default function ActividadesPage() {
       tituloPromblema: "Asilo de Ancianos",
     },
     {
-      id: 3,
+      id: 4,
       title: "Análisis y Diseño de Sistemas",
       subtitle: "App Vida Saludable",
       userAdmin: "Adrian Calcinas",
@@ -39,9 +46,10 @@ export default function ActividadesPage() {
           Proyectos
         </h2>
         <div className="">
-          <CardItems link={"SoftwareComercial"} content={cardItemContent[0]} />
-          <CardItems link={"SoftwareMedida"} content={cardItemContent[1]} />
-          <CardItems link={"AppVidaSaludable"} content={cardItemContent[2]} />
+          <CardItems link={"TiposDeSistemas"} content={cardItemContent[0]} />
+          <CardItems link={"SoftwareComercial"} content={cardItemContent[1]} />
+          <CardItems link={"SoftwareMedida"} content={cardItemContent[2]} />
+          <CardItems link={"AppVidaSaludable"} content={cardItemContent[3]} />
         </div>
       </div>
       <div>{/* mas contenido pronto */}</div>

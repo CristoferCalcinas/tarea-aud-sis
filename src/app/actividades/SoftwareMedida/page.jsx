@@ -450,7 +450,7 @@ export default function SoftwarenMedida() {
                   Diagrama de Casos de uso:{" "}
                 </span>
                 <div className="flex justify-center py-5">
-                  <Image src={diagramaCasosDeUso}></Image>
+                  <Image src={diagramaCasosDeUso} alt="Picture of the author"></Image>
                 </div>
               </div>
 
@@ -459,14 +459,14 @@ export default function SoftwarenMedida() {
                   Especificacion los los casos de uso:{" "}
                 </span>
                 <div className="grid grid-cols-3 py-5 gap-3">
-                  <Image src={especificacion01}></Image>
-                  <Image src={especificacion02}></Image>
-                  <Image src={especificacion03}></Image>
-                  <Image src={especificacion04}></Image>
-                  <Image src={especificacion05}></Image>
-                  <Image src={especificacion06}></Image>
-                  <Image src={especificacion07}></Image>
-                  <Image src={especificacion08}></Image>
+                  <Image src={especificacion01} alt="Picture of the author"></Image>
+                  <Image src={especificacion02} alt="Picture of the author"></Image>
+                  <Image src={especificacion03} alt="Picture of the author"></Image>
+                  <Image src={especificacion04} alt="Picture of the author"></Image>
+                  <Image src={especificacion05} alt="Picture of the author"></Image>
+                  <Image src={especificacion06} alt="Picture of the author"></Image>
+                  <Image src={especificacion07} alt="Picture of the author"></Image>
+                  <Image src={especificacion08} alt="Picture of the author"></Image>
                 </div>
               </div>
 
@@ -475,13 +475,13 @@ export default function SoftwarenMedida() {
                   Diagrama de Actividad:{" "}
                 </span>
                 <div className="grid grid-cols-3 py-5 gap-3">
-                  <Image src={digramaActiv01}></Image>
-                  <Image src={digramaActiv02}></Image>
-                  <Image src={digramaActiv03}></Image>
-                  <Image src={digramaActiv04}></Image>
-                  <Image src={digramaActiv05}></Image>
-                  <Image src={digramaActiv06}></Image>
-                  <Image src={digramaActiv08}></Image>
+                  <Image src={digramaActiv01} alt="Picture of the author"></Image>
+                  <Image src={digramaActiv02} alt="Picture of the author"></Image>
+                  <Image src={digramaActiv03} alt="Picture of the author"></Image>
+                  <Image src={digramaActiv04} alt="Picture of the author"></Image>
+                  <Image src={digramaActiv05} alt="Picture of the author"></Image>
+                  <Image src={digramaActiv06} alt="Picture of the author"></Image>
+                  <Image src={digramaActiv08} alt="Picture of the author"></Image>
                 </div>
               </div>
 
@@ -490,16 +490,16 @@ export default function SoftwarenMedida() {
                   Diagrama de Comunicacion y/o Secuencia:{" "}
                 </span>
                 <div className="grid grid-cols-3 py-5 gap-3">
-                  <Image src={digramaSecCom01}></Image>
-                  <Image src={digramaSecCom02}></Image>
-                  <Image src={digramaSecCom03}></Image>
-                  <Image src={digramaSecCom04}></Image>
-                  <Image src={digramaSecCom05}></Image>
-                  <Image src={digramaSecCom06}></Image>
-                  <Image src={digramaSecCom07}></Image>
-                  <Image src={digramaSecCom08}></Image>
-                  <Image src={digramaSecCom09}></Image>
-                  <Image src={digramaSecCom10}></Image>
+                  <Image src={digramaSecCom01} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom02} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom03} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom04} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom05} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom06} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom07} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom08} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom09} alt="Picture of the author"></Image>
+                  <Image src={digramaSecCom10} alt="Picture of the author"></Image>
                 </div>
               </div>
             </div>
