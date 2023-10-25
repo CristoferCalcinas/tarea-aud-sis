@@ -71,7 +71,7 @@ export default function CardItems({ link, content }) {
               href={`/actividades/${link}`}
               className="text-sm font-semibold leading-6 text-gray-900 italic hover:text-gray-700"
             >
-              Ver Avances <span aria-hidden="true">&rarr;</span>
+              Ver Avances <span aria-hidden="true">{"->"}</span>
             </Link>
           </div>
         </div>
