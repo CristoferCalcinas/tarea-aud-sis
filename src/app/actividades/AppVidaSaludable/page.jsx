@@ -164,7 +164,7 @@ export default function page() {
                     económica significativa para la institución. La poca
                     conciencia y acceso a orientación médica adecuada son
                     obstáculos clave que dificultan la adopción de un estilo de
-                    vida más saludable. El proyecto "App Vida Saludable" busca
+                    vida más saludable. El proyecto &ldquo;App Vida Saludable&ldquo; busca
                     abordar este problema al evaluar el estilo de vida de los
                     participantes, identificar posibles problemas relacionados
                     con el sobrepeso y la obesidad, y proporcionar orientación y
